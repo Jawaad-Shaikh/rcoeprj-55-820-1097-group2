@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>company</title>
+    <!-- start css link -->
+    <link rel="stylesheet" href="css/company.css" />
+    <link rel="stylesheet" href="../common/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../common/css/animate.min.css" />
+    <!-- end css link -->
+    <!-- start js link -->
+    <script src="../common/js/bootstrap.bundle.min.js"></script>
+    <script src="../common/js/sweetalert.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- end js link -->
+  </head>
+  <body>
+    <div class="container bg-white main-box">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand">TECH BOYZ</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#myNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <div class="navbar-nav w-100 justify-content-end">
+              <a href="#" class="nav-link">Home</a>
+              <a href="#" class="nav-link">Portfolio</a>
+              <a href="#" class="nav-link">About us</a>
+              <a href="#" class="nav-link">contact</a>
+              <a href="#" class="nav-link btn signup-btn bg-info">Sign up</a>
+              <a href="#" class="nav-link btn login-btn bg-info d-none"
+                >Sign In</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="login-box active">
+            <!-- //////
+            <h1 class="mb-3">WELCOME</h1>
+            ////// -->
+            <form class="login-form">
+              <label for="brand-code">Brand Code</label>
+              <input type="text" id="brand-code" class="form-control mb-3" />
+              <label for="brand-code">Username</label>
+              <input type="text" id="username" class="form-control mb-3" />
+              <label for="brand-code">Password</label>
+              <input type="text" id="password" class="form-control mb-3" />
+              <div align="end">
+                <a href="#" id="student-login-link">STUDENT LOGIN FORM</a>
+              </div>
+              <button class="btn btn-danger signin-btn mt-3 mb-3 w-100">
+                Sign In
+              </button>
+            </form>
+          </div>
+
+          <div class="signup-box">
+            <form class="signup-form">
+              <label for="brand-code">Brand code</label>
+              <input
+                type="text"
+                required
+                id="s-brand-code"
+                class="form-control mb-3"
+              />
+              <label for="brand-name">Brand name</label>
+              <input
+                type="text"
+                required
+                id="brand-name"
+                class="form-control mb-3"
+              />
+              <label for="website">e-mail</label>
+              <input
+                type="text"
+                required
+                id="website"
+                class="form-control mb-3"
+              />
+              <label for="contact">Contact</label>
+              <input
+                type="text"
+                required
+                id="contact"
+                class="form-control mb-3"
+              />
+              <label for="address">Address</label>
+              <textarea
+                name=""
+                required
+                id="address"
+                class="form-control mb-3"
+              ></textarea>
+              <label for="s-username">Username</label>
+              <input
+                type="text"
+                required
+                id="s-username"
+                class="form-control mb-3"
+              />
+              <label for="s-password">Password</label>
+              <input
+                type="text"
+                required
+                id="s-password"
+                class="form-control mb-3"
+              />
+              <div align="end">
+                <a href="#">Student Login Form</a>
+              </div>
+              <button class="btn btn-danger mt-3 mb-3 w-100">Sign up</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- ///
+          <h2>welcome</h2>
+          /// -->
+          <img
+            src="https://img.freepik.com/premium-vector/boy-coding-with-laptop-illustration_418302-2379.jpg?w=2000"
+            class="w-100"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="js/company.js"></script>
+  </body>
+</html>
